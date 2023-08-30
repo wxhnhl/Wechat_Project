@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>信用积分</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/echarts.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/jifenbiao.js"></script>
+   <script src="js/grade.js"></script>
+   <script src="js/detail.js"></script>
+   <script src="js/time.js"></script>
+</head>
+<body>
+<header>
+      <h1>数据可视化-ECharts</h1>
+      <div class="showTime"></div>
+      <script>time</script>
+</header>
+ <div class="main_box">
+	<div class="column1">
+		<h2>柱形图-消费分类</h2>
+		<div class="zzchart" style="width:500px;height:300px; "></div>
+          			<script>zzchart();</script>
+		<h2> 折线图-消费变化 <a href="javacript:;">2019</a><a href="javascript:;">2020</a></h2>
+          		<div class="zxchart" style="width:500px;height:300px;"></div>
+	 		<script  type="text/javascript">zxchart();</script></div>
+      
+	<div class="column2">
+          		<div id="jifenbiao" style="width:550px;height:300px; "></div>
+         		 	<script>jifenbiao();</script>
+          		<div id="grade" style="width:550px;height:80px;background: rgba(255, 255, 255, 0.03);border-radius:5px;"></div>
+			 <script  type="text/javascript">grade();</script>
+		<div id="detail" style="width:550px;height:300px;"></div>
+			<script  type="text/javascript">detail();</script></div>
+
+	<div class="column3">
+		<h2>柱形图-消费比例</h2>
+		<div class="zzchart2" style="width:500px;height:300px; "></div>
+          			<script>zzchart2();</script>
+		<h2>饼形图-人脉分布</h2>
+          		<div class="bxchart" style="width:500px;height:300px;background: rgba(255, 255, 255, 0.03);border-radius:5px;"></div>
+			 <script  type="text/javascript">bxchart();</script></div>
+
+</div>
+</body>
+</html>
